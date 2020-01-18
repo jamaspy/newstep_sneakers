@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-custom {
+  background-color: transparent;
+  z-index: 999;
+  margin-top: 10px;
+}
+body {
+  font-family: "Permanent Marker", cursive;
+  background-image: url(tom.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Permanent Marker", cursive;
+  padding: 20px;
+}
+.display1 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100vh;
+  font-family: "Permanent Marker", cursive;
+  padding: 20px;
+}
+
+.heading {
+  text-align: center;
+  color: rgb(29, 29, 29);
+  text-shadow: 1px 1px 1px rgb(218, 218, 218);
+}
+.subheading {
+  text-align: center;
+  color: rgb(29, 29, 29);
+  text-shadow: 1px 1px 1px rgb(218, 218, 218);
+}
